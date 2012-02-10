@@ -1,7 +1,12 @@
-This is an experimenting sample implementation of hibernate-ogm for NoSQL databases.
-Currently CRUD operations are supported on Riak,Redis and Voldemort. Once everything including my implementation and hibernate ogm itself
-is correct, Query part will be implemented. How to query on NoSQL databases is different, so abstracting the differences will be a interesting
+This is an experimenting sample implementation of hibernate-ogm for NoSQL databases aiming at Riak,Redis and Voldemort currently. 
+Once everything including my current implementation and hibernate ogm itself is correct, Query part will be implemented. Again,
+this is still experimenting, so there might be something incorrect. I'll fix it shortly, since check and update the source code almost everyday.
+
+How to query on NoSQL databases is different, so abstracting the differences will be a interesting
 point. Will be implemented shortly.
+
+To see how those databases are implemented, please take a look at org/hibernate/ogm/datastore/mapbased/impl package. You'll see
+the corresponding datastore providers.
 
 Hibernate OGM
 ==================================================
