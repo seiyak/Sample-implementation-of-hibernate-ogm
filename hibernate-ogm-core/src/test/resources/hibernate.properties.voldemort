@@ -1,0 +1,7 @@
+hibernate.ogm.datastore.provider=org.hibernate.ogm.datastore.mapbased.impl.VoldemortDatastoreProvider
+hibernate.ogm.datastore.provider_url=tcp://localhost:6666
+hibernate.ogm.datastore.voldemort_store=HibernateOGM
+hibernate.ogm.datastore.provider_debug_location=/home/seiyak/Downloads/voldemort-0.90.1/config/test_config1
+hibernate.show_sql=true
+hibernate.ogm.datastore.grid_dialect=org.hibernate.ogm.datastore.mapbased.impl.HashMapDialect
+hibernate.dialect=org.hibernate.ogm.dialect.VoldemortDialect

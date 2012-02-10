@@ -1,0 +1,11 @@
+hibernate.ogm.datastore.provider=org.hibernate.ogm.datastore.mapbased.impl.RiakDatastoreProvider
+hibernate.ogm.datastore.provider_url=localhost
+hibernate.ogm.datastore.provider.riak_config.client=http
+hibernate.ogm.datastore.provider.riak_config.client.bucket_name=HibernateOGM
+hibernate.ogm.datastore.provider.riak_config.bucket_r=1
+hibernate.ogm.datastore.provider.riak_config.delete_r=1
+hibernate.ogm.datastore.provider.riak_config.fetch_r=1
+hibernate.ogm.datastore.provider.riak_config.store_pw=1
+hibernate.show_sql=true
+hibernate.ogm.datastore.grid_dialect=org.hibernate.ogm.datastore.mapbased.impl.HashMapDialect
+hibernate.dialect=org.hibernate.ogm.dialect.RiakDialect

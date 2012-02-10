@@ -1,0 +1,4 @@
+hibernate.ogm.datastore.provider=org.hibernate.ogm.datastore.mapbased.impl.MapBasedDatastoreProvider
+hibernate.show_sql=true
+hibernate.ogm.datastore.grid_dialect=org.hibernate.ogm.datastore.mapbased.impl.HashMapDialect
+hibernate.dialect=org.hibernate.ogm.dialect.NoopDialect

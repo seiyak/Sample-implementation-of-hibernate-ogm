@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: seiyak
+Build-Jdk: 1.6.0_30
+Created-By: Maven Integration for Eclipse
+Implementation-Title: Hibernate OGM Getting Started
+Implementation-URL: http://hibernate.org
+Implementation-Vendor: hibernate.org
+Implementation-Vendor-Id: hibernate.org
+Implementation-Version: 3.0.0-SNAPSHOT
+

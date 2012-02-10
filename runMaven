@@ -1,0 +1,3 @@
+mvn compiler:compile
+mvn compiler:testCompile
+mvn test
